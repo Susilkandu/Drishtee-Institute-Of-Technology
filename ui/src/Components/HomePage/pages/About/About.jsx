@@ -78,24 +78,20 @@ function About() {
                         प्रमाण पत्र को इंटरनेट से जानने योग्य सुविधा, इत्यादी........
                     </Marquee>
                 </div>
-                <div className="row m-0 p-0 myshadow border border-secondary-subtle" style={{ background: 'white' }} id="aboutBg">
+                <div className="row m-0 p-0 myshadow border border-secondary-subtle" id="aboutBg">
                     <div className="col-12 py-4">
                         <div className="row">
                             <div className="col-md-6 pb-2" data-aos="zoom-in" data-aos-duration="700">
                                 <img src="images/vender/main.jpg" className="w-100 p-0 m-0 border border-0 img-thumbnail" alt="Main Background" />
                             </div>
                             <div className="col-md-6" data-aos="zoom-in" data-aos-duration="700">
-                                <h3 className="card-title fw-medium pt-3">Drishtee Institute Information Of Technology</h3>
-                                <small className="fw-bolder" style={{ color: 'green' }}>A Complete I.T. Institute.</small>
-                                <p className="card-text p-4" data-aos="zoom-in" data-aos-duration="900">
-                                    <span className="text-danger">Drishtee Institute Of Information Technology </span> In
-                                    Nichlaul Is One Of The Leading Businesses In The Computer I.T Training Institutes. Also
-                                    Known For Computer Training Institutes, Computer Training Institutes For
-                                    <span className="text-success fw-medium">CCC, PGDCA, C Programming, C++, Python , HTML, CSS,
-                                        Bootstrap, JavaScript, W3-CSS, SASS, JQuery, PHP, VB.NET, Hardware Networking,
-                                        Software Development, web Development</span> and Much More.
-                                </p>
+                                <h1 class="text-center mb-4" style={{ color: 'rgb(0, 190, 255)' }}>Master Tomorrow’s Technologies Today: Enroll at Drishtee Institute!</h1>
+                                <section style={{ color: "#F5F5F5", fontFamily: `'Roboto', sans-serif` }}>
+                                    <p>At Drishtee Institute of Information Technology, we believe in equipping you with the skills and knowledge needed to stay ahead in the fast-paced world of technology. Our programs are designed to give you a comprehensive understanding of the latest IT advancements and practical skills in areas like programming, web development, networking, and more.</p>
+                                    <p>Join us and immerse yourself in a learning environment that emphasizes innovation, hands-on experience, and cutting-edge knowledge. Whether you're looking to start a new career or enhance your existing skills, Drishtee Institute provides the tools and expertise to help you achieve your goals and master the technologies of tomorrow.</p>
+                                </section>
                             </div>
+
                         </div>
                     </div>
                 </div>
@@ -103,15 +99,12 @@ function About() {
                     <div className="card rounded-0 mx-1 myshadow border border-secondary-subtle" >
                         <div className="card-body m-0 p-0" data-aos="fade-down" data-aos-duration="300" >
                             <ol className="list-group border-0  list-group-numbered" >
-                                <li className="list-group-item border-0 d-flex justify-content-between align-items-start" id="MissionLeft1">
-                                    <div className="me-auto">
-                                        <div className="fw-bold text-primary">
-                                            <span className="px-1">Our Vision</span>
+                                <li className="list-group-item border-0 d-flex justify-content-between align-items-start" style={{border:'20px 0 0 0'}} id="MissionLeft1">
+                                    <div className="me-auto ">
+                                        <div className="fw-bold text-primary ">
+                                            <span className="px-1" >Our Vision</span>
                                         </div>
-                                        <span className="m-0 p-0">Our vision is to improve the youth of rural India, by giving them
-                                            high-class training atmosphere at a very affordable cost.
-                                            We work on the philosophy of “SHINING INDIA”, which can be achieved by developing only rural India.
-                                            We are committed to impart quality computer education among the students.</span>
+                                        <span className="m-0 p-0">At Drishtee Institute of Information Technology, we aspire to uplift rural India by providing world-class IT training at an affordable cost. Guided by our "SHINING INDIA" philosophy, we are dedicated to empowering rural youth with top-notch computer education to drive national progress.</span>
                                     </div>
                                 </li>
 

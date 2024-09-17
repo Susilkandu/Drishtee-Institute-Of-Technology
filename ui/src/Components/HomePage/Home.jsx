@@ -56,7 +56,7 @@ function Home() {
     const images = ['images/mainSlider/join.png', 'images/mainSlider/we.png'];
     return (
         <div id="Home" >
-            <button onClick={toggleFullScreen} style={{display:'hidden'}}>full Screen</button>
+            {/* <button onClick={toggleFullScreen} style={{display:'hidden'}}>full Screen</button> */}
             <button
                 className="btn btn-primary fixed btn-lg fw-semibold d-flex align-items-center position-fixed end-0 bottom-0 m-4"
                 onClick={() => window.location.href = 'tel:+91991815032'}

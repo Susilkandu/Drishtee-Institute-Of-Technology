@@ -1,6 +1,6 @@
 const { student, enquiry } = require("../Model/student");
 const { course, exam, questionPaper, otp } = require("../Model/admin");
-const { getTodayDate } = require("../tools/tools");
+const { getTodayDate ,generateOtp, getHtmlEmailpage, sendMail} = require("../tools/tools");
 const ErrorHandler = require("../tools/errorHandler");
 const catchAsyncError = require("../Middleware/catchAsyncError");
 const jwt = require("jsonwebtoken");
