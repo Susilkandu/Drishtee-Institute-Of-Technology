@@ -1,4 +1,4 @@
-const baseUrl = "http://localhost:3000";
+const baseUrl = "https://drishtee-institute-of-technology.onrender.com/";
 import { getData, postData, putData } from "../tools/apiTools";
 
 const sendQuery = async (data) => {
