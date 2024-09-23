@@ -1,4 +1,4 @@
-const baseUrl = "https://drishtee-institute-of-technology.onrender.com//admin";
+const baseUrl = "https://drishtee-institute-of-technology.onrender.com/admin";
 import { postData, putData, getData, deleteData } from "../tools/apiTools";
 let aToken = localStorage.getItem("aToken");
 // Admin Api
