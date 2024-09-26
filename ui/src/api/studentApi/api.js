@@ -1,4 +1,4 @@
-const baseUrl = "https://drishtee-institute-of-technology.onrender.com/";
+const baseUrl = "https://drishtee-institute-of-technology-1.onrender.com";
 import { getData, postData, putData } from "../tools/apiTools";
 
 const sendQuery = async (data) => {
