@@ -129,8 +129,8 @@ function Header() {
             <nav
                 className="navbar navbar-expand-lg fixed-top py-0 my-0 d-flex justify-content-center align-items-center"
                 style={{
-                    background: 'var(--mainBgColor)',
-                    backdropFilter: 'blur(10px)',
+                    background: color(srgb 0.0021 0.2545 0.415 / 0.98),
+                    backdropFilter: 'blur(6px)',
                     WebkitBackdropFilter: 'blur(10px)', // For Safari support
                     zIndex: 1030, // Ensures the navbar stays on top
                     height: '70px', // Adjust the height as needed
